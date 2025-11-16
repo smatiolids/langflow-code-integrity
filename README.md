@@ -6,14 +6,14 @@ Export the flow to a json file and inspect it with this script.
 
 ## Usage
 ```bash
-python check_flow.py <flow_json_file>
+python inspect_flow.py <flow_json_file>
 ```
 
 ## Example
 
 Example of a flow JSON file with changes:
 ```bash
-python check_flow.py Edited.json
+python inspect_flow.py Edited.json
 
 --------------------------------------------------------------------------------
 Components with Changes:
@@ -25,7 +25,7 @@ Component ID: Agent-JWq8E - Agent
 Example of a flow JSON file without changes:
 
 ```bash
-python check_flow.py Not_edited.json
+python inspect_flow.py Not_edited.json
 ================================================================================
 No components with changes found.
 ```
