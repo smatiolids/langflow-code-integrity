@@ -30,6 +30,9 @@ python inspect_flow.py Not_edited.json
 No components with changes found.
 ```
 
+# TODO:
+
+- Add the mappings of the components/classes to their respective source files on the repo
 
 ## Requirements
 - Python 3.10+
